@@ -4,7 +4,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import axios from "axios";
 function Navbar() {
   const CLIENT_ID = "c1f4309625494c848f3d90c0b3f96813";
-  const REDIRECT_URI = "http://localhost:3000";
+  const REDIRECT_URI = "https://milk-crate-server-test-pub.vercel.app";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
 
